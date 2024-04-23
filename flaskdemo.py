@@ -48,6 +48,5 @@ def get_page(search_term):
         page = get_page(wikipedia.page(title))
     return page
 
-
 if __name__ == '__main__':
     app.run()
